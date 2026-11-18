@@ -1,0 +1,32 @@
+title: 해줌 협력사 포털
+description: 해줌 RTU·EMS 연동 표준 문서와 자기검증 도구 안내
+baseurl: "/partner-portal"
+url: "https://haezoom.github.io"
+lang: ko
+
+remote_theme: just-the-docs/just-the-docs
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-include-cache
+
+search_enabled: true
+heading_anchors: true
+back_to_top: true
+back_to_top_text: "맨 위로"
+aux_links:
+  "가늠(ganeum) GitHub": "https://github.com/haezoom/ganeum"
+footer_content: "© 해줌. 본 사이트의 문서는 협력사 연동을 위한 배포용입니다."
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+
+callouts:
+  warning:
+    title: 주의
+    color: red
+  important:
+    title: 중요
+    color: blue

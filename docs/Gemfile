@@ -1,0 +1,15 @@
+source "https://rubygems.org"
+
+# GitHub Pages 빌드 환경과 같은 버전 묶음 (jekyll-remote-theme·jekyll-include-cache·jekyll-seo-tag 포함)
+# 228 미만은 liquid 4.0.3(Ruby 3.2+ 에서 tainted? 오류)이라 하한을 둡니다.
+gem "github-pages", ">= 228", group: :jekyll_plugins
+gem "webrick"
+
+# Ruby 3.x 에서 기본 포함에서 빠진 표준 라이브러리 (로컬 미리보기용)
+gem "base64"
+gem "bigdecimal"
+gem "csv"
+gem "logger"
+gem "ostruct"
+gem "rexml"
+gem "faraday-retry"
