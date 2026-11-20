@@ -14,7 +14,7 @@ nav_order: 3
 
 설치·사용법·릴리스는 가늠 저장소에서 안내합니다.
 
-**[github.com/haezoom/ganeum](https://github.com/haezoom/ganeum)**
+**[github.com/haezoom/ganeum](https://github.com/haezoom/ganeum){:target="_blank" rel="noopener noreferrer"}**
 
 ## ESS 미리보기 사용법 (`feature/ess-draft` 브랜치)
 
