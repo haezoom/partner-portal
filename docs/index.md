@@ -27,3 +27,9 @@ Phase1(모니터링)은 측정·상태 데이터 발행만, Phase2(제어)는 �
 |---|---|---|---|
 | **Phase1(모니터링)** | telemetry·info 메시지를 로컬에서 자체 검증 | 서버 인증서 검증 + 아이디·비번으로 접속 → telemetry·info 발행 → 해줌이 스키마·주기·rtu_id·시각 확인 후 통과 통보 | 실제 RTU 로 다시 등록 → 운영 자격증명으로 상시 모니터링 |
 | **Phase2(제어)** | 명령 서명 검증(골든 벡터) + ACK·result 응답 판정 | mTLS 인증서로 접속 → 명령 서명 검증 → 즉시 제어(IMMEDIATE) 수용·적용·result 시험 | mTLS·명령 서명 검증을 거쳐 실제 충·방전 제어 |
+
+### 인증서·서명키
+
+Phase별로 쓰는 인증서와 서명키, 갱신 방식입니다. 이미지를 누르면 원본 크기로 볼 수 있습니다.
+
+[![해줌 MQTT 표준의 인증서/서명키 사용 안내]({{ '/assets/images/mqtt-cert-signing-guide.png' | relative_url }})]({{ '/assets/images/mqtt-cert-signing-guide.png' | relative_url }})
